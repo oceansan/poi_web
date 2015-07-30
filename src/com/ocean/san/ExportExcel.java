@@ -14,6 +14,9 @@ import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class ExportExcel {
+	/**
+	 * 导出excel
+	 * */
 	public void export() throws Exception {
 		Workbook wb = new XSSFWorkbook();
 		Sheet sheet1 = wb.createSheet("test sheet1");
