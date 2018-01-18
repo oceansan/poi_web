@@ -6,7 +6,7 @@ import java.util.Date;
 public class Product implements Serializable {
 
 	/**
-	 * 八种基本类型
+	 * 八种基本类型对对对
 	 */
 	private static final long serialVersionUID = 1L;
 	/**
